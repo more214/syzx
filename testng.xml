@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+  <test name="Test">
+    <classes>
+      
+      <class name="com.cn.testcases.Test_001_Baidu"/>
+      <class name="com.cn.testcases.Test_002_Baidu"/>
+    </classes>
+  </test> <!-- Test -->
+  
+ <listeners>
+		<listener class-name="com.cn.listener.TestResultListener" />
+		<listener class-name="com.cn.listener.CustomReport" />
+		<listener class-name="com.cn.listener.RetryListener" />
+	</listeners> 
+</suite> <!-- Suite -->

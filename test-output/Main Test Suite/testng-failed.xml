@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" verbose="5" name="Failed suite [Main Test Suite]" parallel="classes">
+  <listeners>
+    <listener class-name="com.cn.listener.TestResultListener"/>
+    <listener class-name="com.cn.listener.CustomReport"/>
+    <listener class-name="com.cn.listener.RetryListener"/>
+  </listeners>
+  <test name="Test(failed)" parallel="classes">
+    <classes>
+      <class name="com.cn.testcases.Test_002_Baidu">
+        <methods>
+          <include name="setup"/>
+          <include name="test_BaiduSearch"/>
+          <include name="test_BaiduSearch_02"/>
+        </methods>
+      </class> <!-- com.cn.testcases.Test_002_Baidu -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Main Test Suite] -->

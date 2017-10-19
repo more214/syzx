@@ -1,0 +1,64 @@
+2017-10-18 18:07:26 [INFO]:Start to select browser name from properties file
+2017-10-18 18:07:26 [INFO]:Your had select test browser type is: Chrome
+2017-10-18 18:07:26 [INFO]:The test server URL is: http://www.baidu.com
+2017-10-18 18:07:28 [INFO]:加载 Chrome浏览器 ...
+2017-10-18 18:07:29 [INFO]:打开 URL: http://www.baidu.com
+2017-10-18 18:07:30 [INFO]:Maximize browser...
+2017-10-18 18:07:30 [INFO]:Wait for 5 seconds.
+2017-10-18 18:07:30 [INFO]:test_BaiduSearch 测试用例开始执行！
+2017-10-18 18:07:30 [INFO]:开始查找元素[[[ChromeDriver: chrome on XP (73560570d3cc677a155fdb57f385987b)] -> xpath: //*[@id='kw']]]
+2017-10-18 18:07:30 [INFO]:找到了元素 [[[ChromeDriver: chrome on XP (73560570d3cc677a155fdb57f385987b)] -> xpath: //*[@id='kw']]]
+2017-10-18 18:07:30 [INFO]:清除输入字符： [[ChromeDriver: chrome on XP (73560570d3cc677a155fdb57f385987b)] -> xpath: //*[@id='kw']]
+2017-10-18 18:07:30 [INFO]:输入字符: kkkkmnm
+2017-10-18 18:07:30 [INFO]:开始查找元素[[[ChromeDriver: chrome on XP (73560570d3cc677a155fdb57f385987b)] -> xpath: //*[@id='su']]]
+2017-10-18 18:07:31 [INFO]:找到了元素 [[[ChromeDriver: chrome on XP (73560570d3cc677a155fdb57f385987b)] -> xpath: //*[@id='su']]]
+2017-10-18 18:07:31 [INFO]:元素: [[ChromeDriver: chrome on XP (73560570d3cc677a155fdb57f385987b)] -> xpath: //*[@id='su']] 已点击
+2017-10-18 18:07:31 [INFO]:running retry for  'test_BaiduSearch' on class com.cn.listener.TestNGRetry Retrying 0 times
+2017-10-18 18:07:31 [INFO]:test_BaiduSearch 测试用例失败，开始重跑被跳过！
+2017-10-18 18:07:31 [INFO]:test_BaiduSearch 测试用例开始执行！
+2017-10-18 18:07:31 [INFO]:开始查找元素[[[ChromeDriver: chrome on XP (73560570d3cc677a155fdb57f385987b)] -> xpath: //*[@id='kw']]]
+2017-10-18 18:07:31 [INFO]:找到了元素 [[[ChromeDriver: chrome on XP (73560570d3cc677a155fdb57f385987b)] -> xpath: //*[@id='kw']]]
+2017-10-18 18:07:31 [INFO]:清除输入字符： [[ChromeDriver: chrome on XP (73560570d3cc677a155fdb57f385987b)] -> xpath: //*[@id='kw']]
+2017-10-18 18:07:31 [INFO]:输入字符: kkkkmnm
+2017-10-18 18:07:31 [INFO]:开始查找元素[[[ChromeDriver: chrome on XP (73560570d3cc677a155fdb57f385987b)] -> xpath: //*[@id='su']]]
+2017-10-18 18:07:31 [INFO]:找到了元素 [[[ChromeDriver: chrome on XP (73560570d3cc677a155fdb57f385987b)] -> xpath: //*[@id='su']]]
+2017-10-18 18:07:31 [INFO]:元素: [[ChromeDriver: chrome on XP (73560570d3cc677a155fdb57f385987b)] -> xpath: //*[@id='su']] 已点击
+2017-10-18 18:07:31 [INFO]:onTestFailure([TestResult name=test_BaiduSearch status=FAILURE method=Test_002_Baidu.test_BaiduSearch()[pri:0, instance:com.cn.testcases.Test_002_Baidu@589838eb] output={null}])
+2017-10-18 18:07:31 [INFO]:[test_BaiduSearch_20171018-180731.png] 截图成功-->保存在：[ result/screenshot/test_BaiduSearch_20171018-180731.png ]
+2017-10-18 18:07:31 [INFO]:test_BaiduSearch_01 测试用例开始执行！
+2017-10-18 18:07:31 [INFO]:开始查找元素[[[ChromeDriver: chrome on XP (73560570d3cc677a155fdb57f385987b)] -> xpath: //*[@id='kw']]]
+2017-10-18 18:07:31 [INFO]:找到了元素 [[[ChromeDriver: chrome on XP (73560570d3cc677a155fdb57f385987b)] -> xpath: //*[@id='kw']]]
+2017-10-18 18:07:32 [INFO]:清除输入字符： [[ChromeDriver: chrome on XP (73560570d3cc677a155fdb57f385987b)] -> xpath: //*[@id='kw']]
+2017-10-18 18:07:32 [INFO]:输入字符: kkkkmnm
+2017-10-18 18:07:32 [INFO]:开始查找元素[[[ChromeDriver: chrome on XP (73560570d3cc677a155fdb57f385987b)] -> xpath: //*[@id='su']]]
+2017-10-18 18:07:32 [INFO]:找到了元素 [[[ChromeDriver: chrome on XP (73560570d3cc677a155fdb57f385987b)] -> xpath: //*[@id='su']]]
+2017-10-18 18:07:32 [INFO]:元素: [[ChromeDriver: chrome on XP (73560570d3cc677a155fdb57f385987b)] -> xpath: //*[@id='su']] 已点击
+2017-10-18 18:07:32 [INFO]:开始查找元素[[[ChromeDriver: chrome on XP (73560570d3cc677a155fdb57f385987b)] -> link text: 英文结果]]
+2017-10-18 18:07:32 [INFO]:找到了元素 [[[ChromeDriver: chrome on XP (73560570d3cc677a155fdb57f385987b)] -> link text: 英文结果]]
+2017-10-18 18:07:32 [INFO]:test_BaiduSearch_01 测试用例执行成功！
+2017-10-18 18:07:32 [INFO]:test_BaiduSearch_02 测试用例开始执行！
+2017-10-18 18:07:32 [INFO]:开始查找元素[[[ChromeDriver: chrome on XP (73560570d3cc677a155fdb57f385987b)] -> xpath: //*[@id='kw']]]
+2017-10-18 18:07:32 [INFO]:找到了元素 [[[ChromeDriver: chrome on XP (73560570d3cc677a155fdb57f385987b)] -> xpath: //*[@id='kw']]]
+2017-10-18 18:07:32 [INFO]:清除输入字符： [[ChromeDriver: chrome on XP (73560570d3cc677a155fdb57f385987b)] -> xpath: //*[@id='kw']]
+2017-10-18 18:07:32 [INFO]:输入字符: kkkkmnm
+2017-10-18 18:07:32 [INFO]:开始查找元素[[[ChromeDriver: chrome on XP (73560570d3cc677a155fdb57f385987b)] -> xpath: //*[@id='su']]]
+2017-10-18 18:07:32 [INFO]:找到了元素 [[[ChromeDriver: chrome on XP (73560570d3cc677a155fdb57f385987b)] -> xpath: //*[@id='su']]]
+2017-10-18 18:07:32 [INFO]:元素: [[ChromeDriver: chrome on XP (73560570d3cc677a155fdb57f385987b)] -> xpath: //*[@id='su']] 已点击
+2017-10-18 18:07:32 [INFO]:running retry for  'test_BaiduSearch_02' on class com.cn.listener.TestNGRetry Retrying 0 times
+2017-10-18 18:07:32 [INFO]:test_BaiduSearch_02 测试用例失败，开始重跑被跳过！
+2017-10-18 18:07:32 [INFO]:test_BaiduSearch_02 测试用例开始执行！
+2017-10-18 18:07:32 [INFO]:开始查找元素[[[ChromeDriver: chrome on XP (73560570d3cc677a155fdb57f385987b)] -> xpath: //*[@id='kw']]]
+2017-10-18 18:07:32 [INFO]:找到了元素 [[[ChromeDriver: chrome on XP (73560570d3cc677a155fdb57f385987b)] -> xpath: //*[@id='kw']]]
+2017-10-18 18:07:32 [INFO]:清除输入字符： [[ChromeDriver: chrome on XP (73560570d3cc677a155fdb57f385987b)] -> xpath: //*[@id='kw']]
+2017-10-18 18:07:32 [INFO]:输入字符: kkkkmnm
+2017-10-18 18:07:32 [INFO]:开始查找元素[[[ChromeDriver: chrome on XP (73560570d3cc677a155fdb57f385987b)] -> xpath: //*[@id='su']]]
+2017-10-18 18:07:32 [INFO]:找到了元素 [[[ChromeDriver: chrome on XP (73560570d3cc677a155fdb57f385987b)] -> xpath: //*[@id='su']]]
+2017-10-18 18:07:32 [INFO]:元素: [[ChromeDriver: chrome on XP (73560570d3cc677a155fdb57f385987b)] -> xpath: //*[@id='su']] 已点击
+2017-10-18 18:07:32 [INFO]:onTestFailure([TestResult name=test_BaiduSearch_02 status=FAILURE method=Test_002_Baidu.test_BaiduSearch_02()[pri:0, instance:com.cn.testcases.Test_002_Baidu@589838eb] output={null}])
+2017-10-18 18:07:33 [INFO]:[test_BaiduSearch_02_20171018-180732.png] 截图成功-->保存在：[ result/screenshot/test_BaiduSearch_02_20171018-180732.png ]
+2017-10-18 18:07:33 [INFO]:执行成功的用例 = test_BaiduSearch_01
+2017-10-18 18:07:33 [INFO]:执行成功的用例 = test_New
+2017-10-18 18:07:33 [INFO]:被跳过的用例 = test_BaiduSearch
+2017-10-18 18:07:33 [INFO]:被跳过的用例 = test_BaiduSearch_02
+2017-10-18 18:07:33 [INFO]:执行失败的用例 = test_BaiduSearch_02
+2017-10-18 18:07:33 [INFO]:执行失败的用例 = test_BaiduSearch

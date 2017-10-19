@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.cn.listener.TestResultListener"/>
+    <listener class-name="com.cn.listener.CustomReport"/>
+    <listener class-name="com.cn.listener.RetryListener"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.cn.testcases.Test_002_Baidu">
+        <methods>
+          <include name="tearDownBroswer"/>
+          <include name="setup"/>
+          <include name="test_BaiduSearch"/>
+          <include name="test_BaiduSearch_02"/>
+        </methods>
+      </class> <!-- com.cn.testcases.Test_002_Baidu -->
+      <class name="com.cn.testcases.Test_001_Baidu">
+        <methods>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.cn.testcases.Test_001_Baidu -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

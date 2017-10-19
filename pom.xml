@@ -1,0 +1,162 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>auto_chrome_test</groupId>
+	<artifactId>auto_chrome_test</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
+
+	<name>auto_chrome_test</name>
+	<url>http://maven.apache.org</url>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+
+
+
+	<dependencies>
+		<!-- https://mvnrepository.com/artifact/junit/junit -->
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.12</version>
+			<scope>LATEST</scope>
+		</dependency>
+		<dependency>
+			<groupId>net.sourceforge.jexcelapi</groupId>
+			<artifactId>jxl</artifactId>
+			<version>2.6.12</version>
+			<scope>provided</scope>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.testng/testng -->
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>6.10</version>
+			<scope>LATEST</scope>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/log4j/log4j -->
+		<dependency>
+			<groupId>log4j</groupId>
+			<artifactId>log4j</artifactId>
+			<version>1.2.17</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-api -->
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-api</artifactId>
+			<version>3.5.3</version>
+			<scope>compile</scope>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-remote-driver -->
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-remote-driver</artifactId>
+			<version>3.5.3</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-java</artifactId>
+			<version>3.5.3</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.thoughtworks.qdox</groupId>
+			<artifactId>qdox</artifactId>
+			<version>1.12.1</version>
+			<scope>compile</scope>
+		</dependency>
+
+
+		<!-- https://mvnrepository.com/artifact/com.sun.mail/javax.mail -->
+		<dependency>
+			<groupId>com.sun.mail</groupId>
+			<artifactId>javax.mail</artifactId>
+			<version>1.6.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi</artifactId>
+			<version>3.9</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.uncommons/reportng -->
+		<dependency>
+			<groupId>org.uncommons</groupId>
+			<artifactId>reportng</artifactId>
+			<version>1.1.4</version>
+			<scope>test</scope>
+		</dependency>
+
+
+		<!-- https://mvnrepository.com/artifact/com.google.inject/guice -->
+		<dependency>
+			<groupId>com.google.inject</groupId>
+			<artifactId>guice</artifactId>
+			<version>3.0</version>
+		</dependency>
+
+
+		<!-- https://mvnrepository.com/artifact/org.apache.velocity/velocity -->
+		<dependency>
+			<groupId>org.apache.velocity</groupId>
+			<artifactId>velocity</artifactId>
+			<version>1.7</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
+		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>2.4</version>
+		</dependency>
+
+
+		<!-- https://mvnrepository.com/artifact/com.lowagie/itext -->
+		<dependency>
+			<groupId>com.lowagie</groupId>
+			<artifactId>itext</artifactId>
+			<version>2.1.7</version>
+		</dependency>
+
+	</dependencies>
+
+	<build>
+		<plugins>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<!-- 经过测试 maven-compiler-plugin 插件版本请使用3.3，否则在jenkins上无法执行测试 -->
+				<version>3.3</version>
+				<configuration>
+					<source>1.7</source>
+					<target>1.7</target>
+				</configuration>
+			</plugin>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>2.20</version>
+				<configuration>
+					<!-- 解决用maven执行test时 日志乱码的问题，详见：http://www.cnblogs.com/discuss/archive/2010/10/27/1862225.html -->
+					<argLine>-Dfile.encoding=UTF-8</argLine>
+					<!-- 解决maven oom问题http://blog.csdn.net/e5945/article/details/7740904 -->
+					<!--<argLine>-Xms512m -Xmx1024m -XX:PermSize=128m -XX:MaxPermSize=128m</argLine> -->
+					<forkCount>0</forkCount>
+					<suiteXmlFiles>
+						<suiteXmlFile>testng.xml</suiteXmlFile>
+					</suiteXmlFiles>
+					<!--定义maven运行测试生成的报表路径 -->
+					<reportsDirectory>./result/test-report</reportsDirectory>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+</project>

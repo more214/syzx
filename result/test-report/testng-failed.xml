@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.cn.listener.TestngRetryListener"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.cn.testcases.Test_NewTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="testAddToCart"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.cn.testcases.Test_NewTest -->
+      <class name="com.cn.testcases.Test_AddGoodToCart">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.cn.testcases.Test_AddGoodToCart -->
+      <class name="com.cn.testcases.Test_HomePage_Search">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="test_searchGoods"/>
+        </methods>
+      </class> <!-- com.cn.testcases.Test_HomePage_Search -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

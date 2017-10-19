@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="2" failed="2" ignored="0" total="6" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[result/screenshot/test_BaiduSearch_20171018-180731.png]]>
+    </line>
+    <line>
+      <![CDATA[<img src="result/screenshot/test_BaiduSearch_20171018-180731.png" hight='786' width='1024'/>]]>
+    </line>
+    <line>
+      <![CDATA[result/screenshot/test_BaiduSearch_02_20171018-180732.png]]>
+    </line>
+    <line>
+      <![CDATA[<img src="result/screenshot/test_BaiduSearch_02_20171018-180732.png" hight='786' width='1024'/>]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="11312" started-at="2017-10-18T10:07:21Z" finished-at="2017-10-18T10:07:33Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="11312" started-at="2017-10-18T10:07:21Z" finished-at="2017-10-18T10:07:33Z">
+      <class name="com.cn.testcases.Test_002_Baidu">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.cn.testcases.Test_002_Baidu@589838eb]" name="setup" is-config="true" duration-ms="4072" started-at="2017-10-18T18:07:26Z" finished-at="2017-10-18T18:07:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="SKIP" signature="test_BaiduSearch()[pri:0, instance:com.cn.testcases.Test_002_Baidu@589838eb]" name="test_BaiduSearch" duration-ms="484" started-at="2017-10-18T18:07:30Z" finished-at="2017-10-18T18:07:31Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.cn.testcases.Test_002_Baidu.test_BaiduSearch(Test_002_Baidu.java:32)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_BaiduSearch -->
+        <test-method status="FAIL" signature="test_BaiduSearch()[pri:0, instance:com.cn.testcases.Test_002_Baidu@589838eb]" name="test_BaiduSearch" duration-ms="378" started-at="2017-10-18T18:07:31Z" finished-at="2017-10-18T18:07:31Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.cn.testcases.Test_002_Baidu.test_BaiduSearch(Test_002_Baidu.java:32)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:998)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1200)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[result/screenshot/test_BaiduSearch_20171018-180731.png]]>
+            </line>
+            <line>
+              <![CDATA[<img src="result/screenshot/test_BaiduSearch_20171018-180731.png" hight='786' width='1024'/>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test_BaiduSearch -->
+        <test-method status="PASS" signature="test_BaiduSearch_01()[pri:0, instance:com.cn.testcases.Test_002_Baidu@589838eb]" name="test_BaiduSearch_01" duration-ms="358" started-at="2017-10-18T18:07:31Z" finished-at="2017-10-18T18:07:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_BaiduSearch_01 -->
+        <test-method status="SKIP" signature="test_BaiduSearch_02()[pri:0, instance:com.cn.testcases.Test_002_Baidu@589838eb]" name="test_BaiduSearch_02" duration-ms="241" started-at="2017-10-18T18:07:32Z" finished-at="2017-10-18T18:07:32Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.cn.testcases.Test_002_Baidu.test_BaiduSearch_02(Test_002_Baidu.java:53)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_BaiduSearch_02 -->
+        <test-method status="FAIL" signature="test_BaiduSearch_02()[pri:0, instance:com.cn.testcases.Test_002_Baidu@589838eb]" name="test_BaiduSearch_02" duration-ms="251" started-at="2017-10-18T18:07:32Z" finished-at="2017-10-18T18:07:32Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.cn.testcases.Test_002_Baidu.test_BaiduSearch_02(Test_002_Baidu.java:53)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:998)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1200)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[result/screenshot/test_BaiduSearch_02_20171018-180732.png]]>
+            </line>
+            <line>
+              <![CDATA[<img src="result/screenshot/test_BaiduSearch_02_20171018-180732.png" hight='786' width='1024'/>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test_BaiduSearch_02 -->
+        <test-method status="PASS" signature="tearDownBroswer()[pri:0, instance:com.cn.testcases.Test_002_Baidu@589838eb]" name="tearDownBroswer" is-config="true" duration-ms="187" started-at="2017-10-18T18:07:33Z" finished-at="2017-10-18T18:07:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownBroswer -->
+      </class> <!-- com.cn.testcases.Test_002_Baidu -->
+      <class name="com.cn.testcases.Test_001_Baidu">
+        <test-method status="PASS" signature="test_New(java.util.Map)[pri:0, instance:com.cn.testcases.Test_001_Baidu@271053e1]" name="test_New" duration-ms="3752" started-at="2017-10-18T18:07:22Z" data-provider="testData" finished-at="2017-10-18T18:07:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{text=aaa}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_New -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.cn.testcases.Test_001_Baidu@271053e1]" name="quit" is-config="true" duration-ms="615" started-at="2017-10-18T18:07:25Z" finished-at="2017-10-18T18:07:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.cn.testcases.Test_001_Baidu -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

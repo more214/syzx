@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 29.892 s <<< FAILURE! - in TestSuite
+test_searchGoods(com.cn.testcases.Test_HomePage_Search)  Time elapsed: 4.343 s  <<< FAILURE!
+java.lang.AssertionError: expected [sadad] but found [false]
+	at com.cn.testcases.Test_HomePage_Search.test_searchGoods(Test_HomePage_Search.java:34)
+
+testAddToCart(com.cn.testcases.Test_NewTest)  Time elapsed: 1.711 s  <<< FAILURE!
+java.lang.AssertionError: expected [sadad] but found [false]
+	at com.cn.testcases.Test_NewTest.testAddToCart(Test_NewTest.java:29)
+
