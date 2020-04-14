@@ -44,7 +44,7 @@ public class Test_AddGoodToCart {
 	// After complete execution send pdf report by email
 	@AfterSuite
 	public void tearDownandSend() {
-		SendEmailByPDF.sendPDFReportByGMail("23044772@qq.com", "Pa88word!~", "dumingyan@everjiankang.com", "PDF Report",
+		SendEmailByPDF.sendPDFReportByGMail("********@qq.com", "**********", "********@everjiankang.com", "PDF Report",
 				"");
 	}
 
